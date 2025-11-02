@@ -31,7 +31,7 @@ export default function Header() {
                 Kwalitem
               </span>
               <p className="text-xs text-muted-foreground ml-3 mt-0.5 tracking-wide" data-testid="text-tagline">
-                Marketing & Creative Solutions
+                People, Purpose, and Performance
               </p>
             </div>
           </Link>
