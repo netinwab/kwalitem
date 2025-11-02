@@ -140,7 +140,7 @@ export default function Footer() {
               Kwalitem
             </h2>
             <p className="text-xs uppercase tracking-wide text-muted-foreground" data-testid="text-footer-tagline">
-              MARKETING & CONSULTING
+              PEOPLE, PURPOSE & PERFORMANCE
             </p>
           </div>
           <p className="text-sm text-muted-foreground" data-testid="text-footer-copyright">
