@@ -1,0 +1,58 @@
+Create a modern, minimalist consulting company website inspired by the layout and simplicity of redefinedsocial.com, but with a fresh, original color palette and styling.
+
+The brand focuses on helping businesses align people, processes, and systems through growth, confidence, and collaboration.
+
+Overall Design
+	•	Elegant, professional, and clean — generous spacing, soft transitions, and balanced typography.
+	•	Use fonts like Poppins, Inter, or Lora for a premium yet friendly look.
+	•	Experiment with creative color themes (e.g. navy & beige, dark green & cream, charcoal & gold).
+	•	Keep it visually light and modern — avoid clutter or heavy gradients.
+
+Header
+	•	Logo on the left.
+	•	Navigation: Home, About, Services, Portfolio, Blog, Contact.
+	•	A bold Contact Us button on the right.
+	•	Tagline directly beneath logo: People. Purpose. Performance.
+
+Hero Section
+	•	Large, full-width image or soft background video.
+	•	Headline: Helping Businesses Align People, Processes, and Systems for Sustainable Growth.
+	•	Subtext: We build confidence and collaboration through strategy, clarity, and culture.
+	•	Button: Work With Us or Book a Consultation.
+
+Services Section
+	•	Section title: Our Services or What We Do.
+	•	Use image cards or pill buttons (similar to redefinedsocial.com).
+	•	Example services:
+	•	Business Strategy & Growth
+	•	Process Optimization
+	•	Systems Alignment
+	•	Organizational Development
+	•	Leadership & Team Confidence Training
+	•	Include “See More” hover buttons.
+
+About Section
+	•	Two-column layout (image + text).
+	•	Headline: We Align People and Systems for Real Impact.
+	•	Add a small call-to-action button: Learn More.
+
+Portfolio or Case Studies
+	•	Display visual cards of client projects, success stories, or before/after improvements.
+
+Payment / Booking Section
+	•	Prominent Make a Payment or Book a Session link integrated in both header and footer.
+	•	Use modern checkout or embedded link (e.g., Paystack, Stripe).
+
+Footer
+	•	Include:
+	•	Newsletter sign-up (“Receive insights and updates directly in your inbox.”)
+	•	Contact email and LinkedIn/Instagram icons.
+	•	Quick navigation links (Home, Services, About, Blog, Contact).
+	•	Company tagline and copyright text.
+
+Notes
+	•	The site should be mobile responsive, SEO-friendly, and have smooth scrolling.
+	•	Use light animations and hover effects for interactivity.
+	•	The overall emotion should convey trust, collaboration, and empowerment.
+
+⸻

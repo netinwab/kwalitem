@@ -1,0 +1,108 @@
+🧠 Prompt for Replit AI — “School Profile Pages + Viewer Search System (Username-Based URLs)”
+
+Goal
+
+Implement full school profile pages and a new viewer dashboard search system, where every school’s public profile link is based on its account username (not school name).
+Example:
+
+Username → albesta_admin  
+URL → yearbuk.com/albesta_admin
+
+
+⸻
+
+TASK 1 — School Profile Pages
+
+New Route
+
+/:schoolUsername
+
+Each school will have a unique profile page accessible via their account username.
+Example:
+yearbuk.com/albesta_admin
+
+⸻
+
+Profile Page Layout
+
+Each school profile page should include:
+	•	School logo (top-left)
+	•	Cover banner
+	•	School name
+	•	Motto / short about section
+	•	Published Yearbooks (grid view — clicking a cover opens the viewer)
+	•	Memories (thumbnails if available)
+	•	Buttons:
+	•	“Find Yearbooks”
+	•	“Request Alumni Status”
+
+⸻
+
+Behavior per Account Type
+
+1️⃣ For Viewers (logged in):
+	•	Can view all sections.
+	•	Can click “Find Yearbooks” or “Request Alumni Status”.
+	•	If verified → show alumni badge.
+	•	Paid yearbooks appear normal; unpaid yearbooks are blurred.
+
+2️⃣ For School Accounts:
+	•	Can view their own profile.
+	•	Show “Edit Profile” button → routes to /school-settings.
+	•	Show unpublished/draft yearbooks (hidden from others).
+
+3️⃣ For Unregistered Users:
+	•	Can view only public info (logo, cover, motto, and published yearbooks).
+	•	When they click anything (e.g. “Request Alumni Status”), show modal:
+
+Please log in or sign up to access this feature.
+[Login] [Sign Up]
+
+
+
+⸻
+
+Meta Info
+
+Each school page should have:
+	•	Title: ${schoolName} — Yearbuk
+	•	Description: ${schoolName}'s official digital yearbook hub on Yearbuk.
+	•	OG image = cover photo or logo for previews.
+
+⸻
+
+TASK 2 — Search Tab (Viewer Dashboard)
+
+New Route
+
+/search
+
+Add a dedicated Search tab to the viewer dashboard.
+
+Design:
+	•	Search bar at the top.
+	•	Results displayed in cards showing:
+	•	Logo
+	•	School name
+	•	Motto
+	•	Clicking a result → routes to that school’s profile page via /schoolUsername.
+
+Backend logic:
+	•	Use debounce to limit request frequency.
+	•	Match results by school name or username.
+
+⸻
+
+TASK 3 — Update Existing Search Behavior
+
+The existing viewer dashboard search currently only displays results inline.
+Change it so that when a result is clicked → user is routed to the full school profile page (/schoolUsername).
+
+⸻
+
+TASK 4 — Accessibility
+	•	School profile pages should be accessible to everyone (even unregistered users).
+	•	But restricted actions (like alumni request, yearbook viewing, or purchases) should prompt login/signup.
+	•	Pages must be mobile-friendly, with a responsive layout for logos, banners, and buttons.
+
+⸻
